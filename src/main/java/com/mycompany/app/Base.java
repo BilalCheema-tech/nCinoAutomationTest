@@ -26,6 +26,10 @@ public class Base {
 
 		String dir = file.toString();
 		String path = dir.concat("\\src\\main\\java\\resources\\data.properties");
+		
+		//use this path for MAC OS
+		
+		//String path = dir.concat("/src/main/java/resources/data.properties");
 
 		FileInputStream fis = new FileInputStream(path);
 

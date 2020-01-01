@@ -6,6 +6,8 @@
 	3. JUnit installed and configured on the selected IDE. 
 	4. Maven installed and configured on the selected IDE.
 	5. TestNg installed and configured on the selected IDE.
+	6. Install TestNG in Eclipse to run the tests with TestNG.
+	7. Install Selenium and configure it in your System.
 	
 
 ## End to End Automation Test
@@ -24,7 +26,8 @@
 	5. Location of drivers --> external/webdrivers
 	6. Dependencies: pom.xml
 	
-*Note: I could not verify chromedriver and firefoxdriver for MAC*
+*Note: I have verified chromedriver and firefoxdriver for MAC*
+*Note: If you are using MAC OS, please comment out the relevant path of the data.properties file for uniterrupted execution*
 		
 ## Execution Details
 	1. Unzip the Project (GitProjects)
