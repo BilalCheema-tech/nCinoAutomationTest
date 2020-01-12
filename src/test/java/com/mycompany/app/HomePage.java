@@ -50,8 +50,7 @@ public class HomePage extends Base {
 
 		String testData = prop.getProperty("testData");
 
-		t.newTodo().sendKeys(testData);
-		t.newTodo().sendKeys(Keys.ENTER);
+		action.moveToElement(t.newTodo()).sendKeys(testData).sendKeys(Keys.ENTER).build().perform();
 
 		// Add second todo item
 		String testDataName = prop.getProperty("testDataName");
